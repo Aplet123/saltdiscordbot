@@ -27,4 +27,3 @@ messager.on("doEval", edata => {
 // sql.sync().catch(rejct);
 bot.login(decodeT(data.bot.token_beta)).catch(rejct);
 setInterval(checkMutes, Time.seconds(10));
-console.log("hi");
